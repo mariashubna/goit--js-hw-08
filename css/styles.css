@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    padding: 20px;
+    background-color: rgb(215, 240, 247);
+}
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.gallery-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-basis: calc((100% - 20px * 2) / 3);
+}
+.gallery-image {
+  width: 100%;
+  max-height: 100%;
+  border-radius: 10px;
+  border: 3px solid greenyellow;
+}
